@@ -1,0 +1,47 @@
+2026-04-07 19:29:39,323 - INFO - --- Order Request Summary ---
+2026-04-07 19:29:39,323 - INFO - Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: N/A
+2026-04-07 19:29:39,323 - DEBUG - Sending API request with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-07 19:29:43,409 - ERROR - 
+[FAILURE] Binance API Error: Signature for this request is not valid. (Code: -1022)
+2026-04-07 19:31:22,681 - INFO - --- Order Request Summary ---
+2026-04-07 19:31:22,693 - INFO - Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: N/A
+2026-04-07 19:31:22,693 - DEBUG - Sending API request with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-07 19:31:27,378 - ERROR - 
+[FAILURE] Binance API Error: Timestamp for this request is outside of the recvWindow. (Code: -1021)
+2026-04-07 20:52:41,695 - INFO - --- Order Request Summary ---
+2026-04-07 20:52:41,697 - INFO - Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: N/A
+2026-04-07 20:52:41,697 - DEBUG - Sending API request with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-07 20:52:44,355 - ERROR - 
+[FAILURE] Binance API Error: Signature for this request is not valid. (Code: -1022)
+2026-04-07 20:53:32,908 - INFO - --- Order Request Summary ---
+2026-04-07 20:53:32,908 - INFO - Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: N/A
+2026-04-07 20:53:32,908 - DEBUG - Sending API request with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-07 20:53:33,615 - ERROR - 
+[FAILURE] Binance API Error: Signature for this request is not valid. (Code: -1022)
+2026-04-07 21:12:50,343 - INFO - --- Order Request Summary ---
+2026-04-07 21:12:50,343 - INFO - Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: N/A
+2026-04-07 21:12:50,343 - DEBUG - Sending API request with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-07 21:12:52,262 - ERROR - 
+[FAILURE] Binance API Error: Signature for this request is not valid. (Code: -1022)
+2026-04-07 23:32:29,918 - INFO - --- Order Request Summary ---
+2026-04-07 23:32:29,918 - INFO - Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: N/A
+2026-04-07 23:32:29,918 - DEBUG - Bypassing live exchange (API Mock Mode Active) - Simulating network latency...
+2026-04-07 23:32:31,131 - INFO - 
+--- Order Response Details ---
+2026-04-07 23:32:31,131 - INFO - Status: SUCCESS
+2026-04-07 23:32:31,131 - INFO - Order ID: 122516791
+2026-04-07 23:32:31,131 - INFO - Execution Status: FILLED
+2026-04-07 23:32:31,131 - INFO - Executed Qty: 0.01
+2026-04-07 23:32:31,131 - INFO - Average Price: 95123.45
+2026-04-07 23:32:31,131 - DEBUG - Full API Response: {'orderId': 122516791, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'mock_primetrade_test_123', 'price': '0', 'avgPrice': '95123.45', 'origQty': '0.01', 'executedQty': '0.01', 'type': 'MARKET', 'side': 'BUY'}
+2026-04-07 23:32:39,815 - INFO - --- Order Request Summary ---
+2026-04-07 23:32:39,815 - INFO - Symbol: BTCUSDT | Side: SELL | Type: LIMIT | Qty: 0.01 | Price: 95000.0
+2026-04-07 23:32:39,815 - DEBUG - Bypassing live exchange (API Mock Mode Active) - Simulating network latency...
+2026-04-07 23:32:41,023 - INFO - 
+--- Order Response Details ---
+2026-04-07 23:32:41,023 - INFO - Status: SUCCESS
+2026-04-07 23:32:41,023 - INFO - Order ID: 629711235
+2026-04-07 23:32:41,023 - INFO - Execution Status: NEW
+2026-04-07 23:32:41,025 - INFO - Executed Qty: 0
+2026-04-07 23:32:41,025 - INFO - Average Price: 95000.0
+2026-04-07 23:32:41,025 - DEBUG - Full API Response: {'orderId': 629711235, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'mock_primetrade_test_123', 'price': '95000.0', 'avgPrice': '95000.0', 'origQty': '0.01', 'executedQty': '0', 'type': 'LIMIT', 'side': 'SELL'}
