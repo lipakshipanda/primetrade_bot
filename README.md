@@ -28,8 +28,8 @@ Following the suggested architecture, the application separates the API client l
     ```bash
      python cli.py --symbol BTCUSDT --side BUY --type MARKET --qty 0.01
     Execute a Limit Sell Order:
-    ```bash
-     python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.01 --price 95000
+    ```bash  
+      python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.01 --price 95000
 ## Assumptions & Notes
  API Mocking: During testing, the Binance Testnet initiated a hard KYC block on the IP address, preventing live API calls from resolving. To demonstrate the functionality of the CLI, validation architecture, and logging system, an API mock was engineered within orders.py to simulate network latency and generate the expected exchange responses.
 
